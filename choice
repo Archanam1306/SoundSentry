@@ -1,0 +1,48 @@
+<html>
+<head>
+<body bgcolor="#E9967A">
+    
+
+<style>
+.btn-group button {
+  background-color: #fafdfc; /* Green background */
+  width:1000px;
+	height:60px;
+	bottom: 70px;
+	right:40px;
+  border: 3px solid rgb(1, 8, 1); /* Green border */
+  color: rgb(15, 13, 13); /* White text */
+  padding: 30px 30px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: bottom; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #97d899;
+}
+</style>
+</head>
+<body>
+
+<h1>CHOOSE</h1>
+
+<div class="btn-group">
+  <button>NOISE RESTRICTION</button>
+  <button>COMPARISON BASED ON MONTHS</button>
+  <button>COMPARISON BASED ON YEARS</button>
+</div>
+</body>
+</body>
+</html>
